@@ -1,27 +1,16 @@
 <!doctype html>
 <html>
-<head></head>
+<head>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery.jscroll/jquery.jscroll.js"></script>
+</head>
 <body>
-    <a href="http://youtube.com">Click it</a>
+    <div id="container">
+        <p>First thing</p>
+        <a href="2.html"></a>
+    </div>
     <script>
-        // anchor links
-        (function () {
-            var i, el,
-                set = document.getElementsByTagName('a');
-            for (i = 0; i < set.length; i += 1) {
-                el = set[i];
-                el.addEventListener('click', function (e) {
-                    console.log('clicked it');
-                    e.preventDefault();
-                    e.stopPropagation();
-                    return false;
-                });
-            }
-        }());
-        // calls to window.open
-        window.open = function (dest) {
-            console.log('nope lol');
-        };
+        $('#container').jscroll();
     </script>
 </body>
 </html>

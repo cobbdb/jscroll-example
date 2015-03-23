@@ -1,0 +1,33 @@
+{
+  "name": "jscroll-example",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cobbdb/jscroll-example",
+  "authors": [
+    "cobbdb <cobbdb@gmail.com>"
+  ],
+  "description": "Working example of jscroll library.",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jscroll",
+    "jquery",
+    "example",
+    "demo",
+    "simple",
+    "fast"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.jscroll": "~2.2.4",
+    "jquery": "2.1.3"
+  }
+}
